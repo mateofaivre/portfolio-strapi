@@ -1,0 +1,93 @@
+{
+  "collectionName": "components_default_projects_items",
+  "info": {
+    "displayName": "Project",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.link"
+    },
+    "medias": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "audios"
+      ]
+    },
+    "carousel_pagination_color": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light"
+      ]
+    },
+    "project_tags": {
+      "type": "customField",
+      "options": [
+        "acf:ACF",
+        "acf_extended:ACF Extended",
+        "aero:Aero",
+        "after_effects:After Effects",
+        "figma:Figma",
+        "firebase:Firebase",
+        "github:Github",
+        "gsap:GSAP",
+        "gulp:Gulp",
+        "html:HTML",
+        "illustrator:Illustrator",
+        "javascript:Javascript",
+        "nuxtjs:Nuxt.js",
+        "photoshop:Photoshop",
+        "php:PHP",
+        "sass:SASS",
+        "sketch:Sketch",
+        "timber:Timber",
+        "trello:Trello",
+        "twig:Twig",
+        "vuejs:Vue.js",
+        "wordpress:WordPress",
+        "xd:XD"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "vimeo_embed_id": {
+      "type": "biginteger"
+    },
+    "project_types": {
+      "type": "customField",
+      "options": [
+        "uiux:UI/UX Design",
+        "dev_en:Development",
+        "motion:Motion Design",
+        "dev_fr: Développement"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_default_icons",
+  "info": {
+    "displayName": "Icons",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "twitter",
+        "linkedin",
+        "github"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.link"
+    },
+    "text_to_copy": {
+      "type": "string"
+    }
+  }
+}

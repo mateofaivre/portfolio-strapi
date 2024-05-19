@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_default_messages",
+  "info": {
+    "displayName": "Messages",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.link"
+    }
+  }
+}

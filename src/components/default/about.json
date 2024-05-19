@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_default_abouts",
+  "info": {
+    "displayName": "about",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.link"
+    }
+  }
+}
