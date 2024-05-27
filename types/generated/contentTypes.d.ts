@@ -880,6 +880,12 @@ export interface ApiOptionOption extends Schema.SingleType {
           localized: true;
         };
       }>;
+    footer: Attribute.Component<'default.footer'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

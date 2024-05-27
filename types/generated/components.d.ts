@@ -19,6 +19,19 @@ export interface DefaultAbout extends Schema.Component {
   };
 }
 
+export interface DefaultFooter extends Schema.Component {
+  collectionName: 'components_default_footers';
+  info: {
+    displayName: 'Footer';
+    description: '';
+  };
+  attributes: {
+    author: Attribute.String;
+    rights: Attribute.String;
+    thanks: Attribute.RichText;
+  };
+}
+
 export interface DefaultIcons extends Schema.Component {
   collectionName: 'components_default_icons';
   info: {
@@ -132,6 +145,7 @@ declare module '@strapi/types' {
   export module Shared {
     export interface Components {
       'default.about': DefaultAbout;
+      'default.footer': DefaultFooter;
       'default.icons': DefaultIcons;
       'default.link': DefaultLink;
       'default.message': DefaultMessage;

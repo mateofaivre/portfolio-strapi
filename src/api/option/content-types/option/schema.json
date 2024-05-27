@@ -48,6 +48,17 @@
         }
       },
       "component": "default.icons"
+    },
+    "footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "default.footer"
     }
   }
 }

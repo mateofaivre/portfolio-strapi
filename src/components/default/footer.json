@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_default_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "rights": {
+      "type": "string"
+    },
+    "thanks": {
+      "type": "richtext"
+    }
+  }
+}

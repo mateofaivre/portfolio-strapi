@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "migrateDB": "npm run strapi transfer -- --to https://strapi-7hvc.onrender.com/admin --to-token f334702e9853b5500d48c805ef311f5b0dce8b91fb4c08c8c5e5e51a2212de611c599f0683def2c1db0fcded1c7fb2eb346936e0e34a8ce384f54af64bb88814d970bac8b02e86924da58e5af4495e844d8ab71e14525d582a0c29de7537cd54508345e9f5b566c61f1f02a5286c0ad51b54d82706711dcf4ce651903f83c0a3"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "4.24.2",
